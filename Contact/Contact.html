@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><h1>Ecommerce</h1></div>
+        <div class="link">
+            <ul>
+                <li><a href="../index.html" class="home">Home</a></li>
+                <li><a href="../Product/product.html">Product</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="./Contact.html" style="color: black;">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <a href="../login/login.html"><button><i class="fa-duotone fa-solid fa-arrow-right-to-bracket" style="--fa-secondary-opacity: 1;"></i>Login</button></a>
+            <a href="../Register/Register.html"><button><i class="fa-solid fa-user-plus"></i>Register</button></a>
+            <a href="#"><button><i class="fa-solid fa-cart-shopping"></i>Cart (<p id="count-cart"></p>)</button></a>
+        </div>
+    </nav>
+
+   <div class="heading">
+    <h1>Contact Us</h1>
+   </div>
+    <div class="container">
+        <form action="">
+            <p>
+                <label>Name</label>
+                <input type="text" name="Name" placeholder="Enter your Name" required>
+            </p>
+            <p>
+                <Label>Email</Label>
+                <input type="Email" name="Email" placeholder="name@example.com" required>
+            </p>
+           <p>
+            <label>Message</label>
+            <textarea name="Message" id="Address" cols="25" rows="7" placeholder="Enter your Message"></textarea>
+           </p>
+            <div class="btn">
+                <input type="button" value="Send">
+            </div>
+        </form>
+    </div>
+    <footer>Made with 💞 <u>Rukman Gada</u></footer>
+</body>
+<script src="../index.js"></script>
+</html>
