@@ -22,17 +22,30 @@
         <div class="button">
             <a href="./login/login.html"><button><i class="fa-duotone fa-solid fa-arrow-right-to-bracket" style="--fa-secondary-opacity: 1;"></i>Login</button></a>
             <a href="./Register/Register.html"><button><i class="fa-solid fa-user-plus"></i>Register</button></a>
-            <a href="#"><button><i class="fa-solid fa-cart-shopping"></i>Cart (<p id="count-cart"></p>)</button></a>
+            <a href="#"><button><i class="fa-solid fa-cart-shopping"></i>Cart<p id="productnumber"></p></button></a>
         </div>
     </nav>
 
     <div class="main">
         <h1>Cart</h1>
-        <div id="cart">
-
+        <div class="container">
+            <div id="cartItems">
+            </div>
+        <div id="emptyCartMessage" style="display: none;" class="empty">
+            <h1>Your cart is empty.</h1>
+            <a href="../index.html"><button><i class="fa-solid fa-arrow-left"></i> Continue Shopping</button></a>
+            <footer>Made with 💞 <u>Rukman Gada</u></footer>
+        </div>
+        <div id="orderSummary" class="ordersummary">
+            <h2>Order Summary</h2>
+            <p>Product Count<span id="productnumber" style="margin: 0;"></span><span id="productCount">(0)</span></p>
+            <p>Shipment Price: <span id="shipmentPrice">10.00</span></p>
+            <p class="bold">Total Amount: <span id="totalAmount">10.00</span></p>
+            <a href='#'><button>Go To Checkout</button></a>
+        </div> 
         </div>
     </div>
 
 </body>
-<script src="../index.js"></script>
+<script src="cart.js"></script>
 </html>

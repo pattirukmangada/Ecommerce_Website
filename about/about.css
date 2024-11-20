@@ -67,6 +67,16 @@ nav{
     background: white;
     color: black;
     border-radius: 4px;
+    height: 30px;
+    width: 95px;
+}
+.button button{
+    background-color: white;
+    color:black;
+}
+#count-cart{
+margin-left: 15px;
+font-size: 12px;
 }
 .button button:hover{
     color: white;

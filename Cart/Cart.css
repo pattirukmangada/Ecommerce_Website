@@ -63,18 +63,153 @@ padding: 5px 10px;
 background: white;
 color: black;
 border-radius: 4px;
-}.button button:hover{
+}
+.button button:hover{
     color: white;
     background-color: black;
 }
 /* nav Bar End */
 
+.main{
+    padding: 0px 50px;
+}
  .main h1{
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
     margin-bottom: 40px;
+    padding: 20px 20px;
+    border-bottom: 2px solid lightgray;
  }
- #cart{
-    margin: 0px 40px;
-    border-top: 2px solid gray;
- }
+#cart {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#products, #cartItems {
+    display: grid;
+}
+
+.product, .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 5%;
+    width: 150px;
+}
+
+.product h2, .cart-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product p, .cart-item p {
+    margin: 5px 0;
+}
+
+.product img, .cart-item img {
+    width: 100px;
+    height: 80px;
+    margin: 10px 10px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart-item{
+    width: 700px;
+    
+}
+.title{
+    margin-left: 50px;
+    text-align: left;
+    width: 300px;
+    font-size: 12px;
+}
+.card h2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 50px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.card button{
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.empty{
+    display: grid;
+    place-items: center;
+}
+.empty h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.empty a button{
+    width: 150px;
+    height:35px;
+    background-color: white;
+    border-radius: 5px;    
+}
+.empty a button:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ordersummary{
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    padding: 2px 14px;
+    width: 300px;
+    height: 200px;
+}
+.ordersummary h2{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 20px;
+}
+.ordersummary p{
+    font-size: 12px;
+    margin: 10px 0px;
+}
+.ordersummary p span{
+    margin-left: 120px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    margin-left: 5%;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    place-content: center;
+}
+.ordersummary .bold{
+    font-weight: 900;
+}
+.ordersummary a button{
+    width: 270px;
+    height: auto;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+.ordersummary a button:hover{
+    background-color: white;
+    color: black;
+}
