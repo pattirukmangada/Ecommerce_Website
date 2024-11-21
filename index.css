@@ -63,7 +63,8 @@ padding: 5px 10px;
 background: white;
 color: black;
 border-radius: 4px;
-}.button button:hover{
+}
+.button button:hover{
     color: white;
     background-color: black;
 }
@@ -143,7 +144,7 @@ border-radius: 4px;
 }
 .card{
     width: 100%;
-    height: 400px;
+    height: auto;
     place-items: center;
 }
 .card img{
@@ -182,4 +183,61 @@ h2 button{
     margin: 0px 5px;
     padding: 4px 8px;
     border-radius: 5px;
+}
+@media screen and (min-width:350px) and (max-width:450px){
+    nav{
+        display: none;
+    }
+    .mobile{
+       display: flex;
+       justify-content: flex-start; 
+       font-size: 12px;
+       align-items: center;
+       padding: 5px 5px;
+    }
+    nav h1{
+        font-size: 13px;
+    }
+    nav button{
+        font-size: 7px;
+        padding: 4px 4px;
+        width: 10px;
+        height: 10px;
+    }
+    .content h1{
+        font-size: 20px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .latest{
+        font-size: 18px;
+    }
+    .filter-btn{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 5px;
+    }
+    .filter-btn button{
+        width: auto;
+        height: 25px;
+        font-size: 10px;
+    }
+    .item-container{
+        display: block;
+    }
+    .item-container img{
+        width: 100px;
+        height: 80px;
+    }
+    .item-container h6{
+        font-size: 12px;
+    }
+    .item-container p{
+        font-size: 10px;
+    }
+    .item-container h2 button{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
 }
