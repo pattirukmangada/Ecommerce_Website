@@ -1,13 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    updateCartCount();
+    updateCartDisplay();
 });
-
-function updateCartCount() {
-    const savedCart = localStorage.getItem('cart');
-    let cartCount = 0;
-    if (savedCart) {
-        const cart = JSON.parse(savedCart);
-        cartCount = cart.reduce((total, item) => total + item.quantity, 0);
-    }
-    document.getElementById('count-cart').innerText = cartCount;
+function updateCartDisplay() {
+    const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
+    document.getElementById('cart').innerText = `Cart (${cartCount})`;
 }
+
+function saveCart() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+function loadCart() {
+    const savedCart = localStorage.getItem('cart');
+    if (savedCart) {
+        cart = JSON.parse(savedCart);
+    }
+}
+
+loadCart();
+updateCartDisplay();
