@@ -162,6 +162,17 @@ footer{
         width: 10px;
         height: 10px;
     }
+    .mobile .link li{
+        padding: 2px 2px;
+        margin: 2px 8px;
+    }
+    .mobile .button a button{
+        place-content: center;
+        padding: 8px 14px;
+        height: 5px;
+        width: 5px;
+        font-size: 8px;
+    }
     .heading h1{
         font-size: 15px;
     }

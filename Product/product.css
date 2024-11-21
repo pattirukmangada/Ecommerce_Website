@@ -206,4 +206,15 @@ h2 button{
     .card{
         height: auto;
     }
+    .mobile .link li{
+        padding: 2px 2px;
+        margin: 2px 8px;
+    }
+    .mobile .button a button{
+        place-content: center;
+        padding: 8px 14px;
+        height: 5px;
+        width: 5px;
+        font-size: 8px;
+    }
 }

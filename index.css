@@ -197,16 +197,25 @@ h2 button{
        justify-content: flex-start; 
        font-size: 12px;
        align-items: center;
-       padding: 5px 5px;
+       padding: 5px 2px;
+    }
+    .mobile .link li{
+        padding: 2px 2px;
+        margin: 2px 8px;
+    }
+    .mobile .button a button{
+        place-content: center;
+        padding: 8px 14px;
     }
     nav h1{
         font-size: 13px;
     }
     nav button{
-        font-size: 7px;
-        padding: 4px 4px;
-        width: auto;
-        height: 10px;
+        font-size:7px;
+        width: 5px;
+        height: 12px;
+        margin: 0;
+        padding: 0;
     }
     .content h1{
         font-size: 20px;
