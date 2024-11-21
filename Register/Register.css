@@ -9,6 +9,9 @@ body{
     font-optical-sizing: auto;
     overflow-y: scroll;
 }
+.mobile{
+    display: none;
+}
 .contact{
     color: rgb(92, 15, 15);
 }
@@ -158,5 +161,20 @@ footer{
         padding: 4px 4px;
         width: 10px;
         height: 10px;
+    }
+    .heading h1{
+        font-size: 15px;
+    }
+    label{
+        font-size: 12px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    span{
+        font-size: 12px;
+    }
+    footer{
+        font-size: 12px;
     }
 }

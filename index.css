@@ -21,6 +21,9 @@ nav{
     width: 100%;
     z-index: 1000;
 }
+.mobile{
+    display: none;
+}
 .link{
     place-content: center;
 }
@@ -64,7 +67,8 @@ background: white;
 color: black;
 border-radius: 4px;
 }
-.button button:hover{
+.button button:hover
+{
     color: white;
     background-color: black;
 }
@@ -144,7 +148,7 @@ border-radius: 4px;
 }
 .card{
     width: 100%;
-    height: auto;
+    height: 400px;
     place-items: center;
 }
 .card img{
@@ -201,7 +205,7 @@ h2 button{
     nav button{
         font-size: 7px;
         padding: 4px 4px;
-        width: 10px;
+        width: auto;
         height: 10px;
     }
     .content h1{
@@ -239,5 +243,8 @@ h2 button{
     .item-container h2 button{
         font-size: 8px;
         margin-bottom: 10px;
+    }
+    .card{
+        height: 270px;
     }
 }

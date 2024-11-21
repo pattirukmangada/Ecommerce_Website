@@ -8,6 +8,9 @@ body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
+.mobile{
+    display: none;
+}
 /* Nav Bar Start */
 nav{
     display: flex;
@@ -63,7 +66,8 @@ padding: 5px 10px;
 background: white;
 color: black;
 border-radius: 4px;
-}.button button:hover{
+}
+.button button:hover{
     color: white;
     background-color: black;
 }
@@ -168,5 +172,38 @@ h2 button{
         padding: 4px 4px;
         width: 10px;
         height: 10px;
+    }
+    .latest{
+        font-size: 18px;
+    }
+    .filter-btn{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 5px;
+    }
+    .filter-btn button{
+        width: auto;
+        height: 25px;
+        font-size: 10px;
+    }
+    .item-container{
+        display: block;
+    }
+    .item-container img{
+        width: 100px;
+        height: 80px;
+    }
+    .item-container h6{
+        font-size: 12px;
+    }
+    .item-container p{
+        font-size: 10px;
+    }
+    .item-container h2 button{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .card{
+        height: auto;
     }
 }

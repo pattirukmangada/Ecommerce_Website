@@ -9,6 +9,9 @@ body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
+.mobile{
+    display: none;
+}
 .about{
     color: black;
 }
@@ -141,5 +144,15 @@ footer{
         padding: 4px 4px;
         width: 10px;
         height: 10px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+    .card-container{
+        display: grid;
+        row-gap: 10px;
     }
 }
