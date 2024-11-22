@@ -66,6 +66,7 @@ padding: 5px 10px;
 background: white;
 color: black;
 border-radius: 4px;
+cursor: pointer;
 }
 .button button:hover
 {
@@ -127,6 +128,7 @@ border-radius: 4px;
     background-color: white;
     color: black;
     border-radius: 5px;
+    cursor: pointer;
 }
 .filter-btn button:hover{
     background-color: black;
@@ -187,6 +189,7 @@ h2 button{
     margin: 0px 5px;
     padding: 4px 8px;
     border-radius: 5px;
+    cursor: pointer;
 }
 @media screen and (min-width:350px) and (max-width:450px){
     nav{
@@ -197,11 +200,11 @@ h2 button{
        justify-content: flex-start; 
        font-size: 12px;
        align-items: center;
-       padding: 5px 2px;
+       padding: 2px 2px;
     }
     .mobile .link li{
         padding: 2px 2px;
-        margin: 2px 8px;
+        margin: 2px 5px;
     }
     .mobile .button a button{
         place-content: center;

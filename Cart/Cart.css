@@ -183,9 +183,6 @@ footer{
     font-size: 12px;
     margin: 10px 0px;
 }
-.ordersummary p span{
-    margin-left: 120px;
-}
 .container{
     display: flex;
     justify-content: center;
@@ -215,21 +212,33 @@ footer{
     background-color: white;
     color: black;
 }
+.list-item-count{
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+}
+.counter-count{
+    display: flex !important;
+    font-weight: 600;
+}
+.counters{
+    font-weight: 900;
+}
 @media screen and (min-width:350px) and (max-width:450px){
     nav{
         display: none;
     }
     .mobile{
-       display: flex;
-       justify-content: flex-start; 
-       font-size: 12px;
-       align-items: center;
-       padding: 5px 5px;
-    }
-    .mobile .link li{
+        display: flex;
+        justify-content: flex-start; 
+        font-size: 12px;
+        align-items: center;
         padding: 2px 2px;
-        margin: 2px 8px;
-    }
+     }
+     .mobile .link li{
+         padding: 2px 2px;
+         margin: 2px 5px;
+     }
     .mobile .button a button{
         place-content: center;
         padding: 8px 14px;
@@ -287,5 +296,11 @@ footer{
     footer{
         font-size: 12px;
     }
+    .counter-count{
+        display: flex !important;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
 
 }

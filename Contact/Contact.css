@@ -67,6 +67,7 @@ nav{
     background: white;
     color: black;
     border-radius: 4px;
+    cursor: pointer;
 }
 .button button:hover{
     color: white;
@@ -131,6 +132,7 @@ form .btn{
     border-radius: 5px;
     background-color: gray;
     color: white;
+    cursor: pointer;
 }
 footer{
     margin-top: 50px;
@@ -142,12 +144,16 @@ footer{
         display: none;
     }
     .mobile{
-       display: flex;
-       justify-content: flex-start; 
-       font-size: 12px;
-       align-items: center;
-       padding: 5px 5px;
-    }
+        display: flex;
+        justify-content: flex-start; 
+        font-size: 12px;
+        align-items: center;
+        padding: 2px 2px;
+     }
+     .mobile .link li{
+         padding: 2px 2px;
+         margin: 2px 5px;
+     }
     nav h1{
         font-size: 13px;
     }
@@ -156,10 +162,6 @@ footer{
         padding: 4px 4px;
         width: 10px;
         height: 10px;
-    }
-    .mobile .link li{
-        padding: 2px 2px;
-        margin: 2px 8px;
     }
     .mobile .button a button{
         place-content: center;

@@ -128,23 +128,23 @@ footer{
     nav{
         display: none;
     }
-    .mobile .link li{
+    .mobile{
+        display: flex;
+        justify-content: flex-start; 
+        font-size: 12px;
+        align-items: center;
         padding: 2px 2px;
-        margin: 2px 8px;
-    }
+     }
+     .mobile .link li{
+         padding: 2px 2px;
+         margin: 2px 5px;
+     }
     .mobile .button a button{
         place-content: center;
         padding: 8px 14px;
         height: 5px;
         width: 5px;
         font-size: 8px;
-    }
-    .mobile{
-       display: flex;
-       justify-content: flex-start; 
-       font-size: 12px;
-       align-items: center;
-       padding: 5px 5px;
     }
     nav h1{
         font-size: 13px;
@@ -158,5 +158,8 @@ footer{
     .card-container{
         display: grid;
         row-gap: 10px;
+    }
+    .cart-item{
+        margin: 0;
     }
 }

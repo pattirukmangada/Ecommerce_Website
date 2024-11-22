@@ -34,11 +34,14 @@ function displayCartItems() {
                     <div class="card">
                         <img src="${item.image}" alt="${item.title}">
                         <h6 class="title">${item.title}</h6>
+                        <div class="list-item-count">
                         <h2>
                             <button onclick="decrementQuantity(${item.id})">-</button>
                             <p class="quantity"> ${item.quantity}</p>
                             <button onclick="incrementQuantity(${item.id})">+</button>
                         </h2>
+                        <h3 class="counter-count"><p class="product-info">${item.quantity} <p class="counters">x $ ${(item.price * item.quantity).toFixed(2)}</p></p></h3>
+                        </div>
                     </div>
                 </div>`;
             cartItemsDiv.appendChild(productDiv);

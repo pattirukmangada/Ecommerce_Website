@@ -147,16 +147,16 @@ footer{
         display: none;
     }
     .mobile{
-       display: flex;
-       justify-content: flex-start; 
-       font-size: 12px;
-       align-items: center;
-       padding: 5px 5px;
-    }
-    .mobile .link li{
+        display: flex;
+        justify-content: flex-start; 
+        font-size: 12px;
+        align-items: center;
         padding: 2px 2px;
-        margin: 2px 8px;
-    }
+     }
+     .mobile .link li{
+         padding: 2px 2px;
+         margin: 2px 5px;
+     }
     .mobile .button a button{
         place-content: center;
         padding: 8px 14px;
