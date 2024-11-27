@@ -173,6 +173,7 @@ cursor: pointer;
     padding: 5px 10px;
 }
 .rate{
+    font-family: 'Courier New', Courier, monospace;
 font-weight: 700;
 line-height: 2.0;
 }
@@ -196,6 +197,7 @@ h2 button{
         display: none;
     }
     .mobile{
+
        display: flex;
        justify-content: flex-start; 
        font-size: 12px;

@@ -138,6 +138,7 @@ cursor: pointer;
     padding: 5px 10px;
 }
 .rate{
+    font-family: 'Courier New', Courier, monospace;
 font-weight: 700;
 line-height: 2.0;
 }

@@ -93,7 +93,6 @@ border-radius: 4px;
 #products, #cartItems {
     display: grid;
 }
-
 .product, .cart-item {
     border: 1px solid #ccc;
     padding: 10px;
@@ -167,6 +166,9 @@ footer{
     text-align: center;
     margin-bottom: 50px;
 }
+.ordersummary p{
+    font-family: 'Times New Roman', Times, serif;
+}
 .ordersummary{
     margin-left: 5%;
     border: 1px solid #ccc;
@@ -218,8 +220,10 @@ footer{
     font-weight: 700;
 }
 .counter-count{
+    font-family: 'Times New Roman', Times, serif;
     display: flex !important;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 15px;
 }
 .counters{
     font-weight: 900;
