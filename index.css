@@ -135,8 +135,10 @@ cursor: pointer;
     color: white;
 }
 .item-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);*/
     justify-content: center;
     align-items: center;
 }
@@ -149,8 +151,9 @@ cursor: pointer;
     margin: 10px 10px;
 }
 .card{
-    width: 100%;
+    width: 300px;
     height: 400px;
+    display: grid;
     place-items: center;
 }
 .card img{

@@ -32,7 +32,7 @@ function displayProducts(products) {
                     <img src="${product.image}" alt="${product.title}">
                     <h6 class="title">${product.title.substring(0, 12) + "..."}</h6>
                     <p class="desc">${product.description.substring(0, 140) + "..."}</p>
-                    <span class="rate">$${product.price}</span>
+                    <span class="rate">₹${product.price}</span>
                     <h2>
                     <button>Details</button>
                     <button onclick="addToCart(${product.id}, '${product.title}', '${product.image}', ${product.price})">Add to Cart</button></h2>
